@@ -1,16 +1,13 @@
-# for num in "texto":
-#     print(num)
+n = 1
 
-palavra = "infinity school"
-
-contador = 0
+produto = 1
 
 
 
-for letra in palavra:
+while n <= 5:
 
-    if letra in 'aeiou':
+    produto = produto*n
 
-        contador += 1
+    n += 1
 
-print("A quantidade de vogais é", contador)
+print(produto)
